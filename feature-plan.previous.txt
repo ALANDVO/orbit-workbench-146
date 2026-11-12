@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "current_feature": "summarize_text",
+  "features": [
+    {
+      "id": "summarize_text",
+      "title": "Text summarization service",
+      "status": "in_progress",
+      "acceptance": [
+        "User can input text, click summarize, and see word count",
+        "Backend endpoint /summarize accepts JSON payload with 'text' field",
+        "Frontend displays result with word count"
+      ],
+      "implementation": [],
+      "tests": []
+    }
+  ]
+}

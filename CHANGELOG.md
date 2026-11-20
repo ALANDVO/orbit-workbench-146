@@ -1,8 +1,13 @@
 # Changelog
 
-## 1.0.0 — work-in-progress checkpoint
+## 1.1.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
+
+## 1.0.1 — in progress
+
+- Added `/summarize/strict` endpoint that validates text is non-empty and non-whitespace
+- Added 3 new tests: `test_summarize_strict_valid`, `test_summarize_strict_empty`, `test_summarize_strict_whitespace`
 
 ---
 

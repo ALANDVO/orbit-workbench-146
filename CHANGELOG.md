@@ -1,8 +1,13 @@
 # Changelog
 
-## 1.1.0 — work-in-progress checkpoint
+## 1.2.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
+
+## 1.1.0 — work-in-progress checkpoint
+
+- Added `/health` endpoint for service health checks
+- Added `/summarize` and `/summarize/strict` endpoints (carried forward from 1.0.1)
 
 ## 1.0.1 — in progress
 

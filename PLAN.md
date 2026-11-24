@@ -15,6 +15,10 @@ Status: in_progress
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
 
+Implementation: `backend/main.py: added /health endpoint`
+
+Tests: `tests/test_health.py: added test_health`, `tests/test_backend.py: existing summarize tests`
+
 ---
 
 Alan Vo · [alanvo.net](https://alanvo.net) · [X: @alanvoasi](https://x.com/alanvoasi)

@@ -7,6 +7,10 @@ app = FastAPI()
 class TextInput(BaseModel):
     text: str
 
+@app.get("/health")
+async def health() -> Dict[str, str]:
+    return {"status": "ok"}
+
 @app.post("/summarize")
 async def summarize(input: TextInput) -> Dict[str, int]:
     """

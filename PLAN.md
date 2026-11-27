@@ -10,14 +10,14 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
 
-Implementation: `backend/main.py: added /health endpoint`
+Implementation: `backend/main.py: added /health and /version endpoints`
 
-Tests: `tests/test_health.py: added test_health`, `tests/test_backend.py: existing summarize tests`
+Tests: `tests/test_health.py: added test_health`, `tests/test_backend.py: existing summarize tests`, `tests/test_version.py: added test_version`
 
 ---
 

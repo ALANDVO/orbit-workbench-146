@@ -29,6 +29,15 @@ async def summarize_strict(input: TextInput) -> Dict[str, int]:
     word_count = len(input.text.split())
     return {"word_count": word_count}
 
+@app.get("/version")
+async def version() -> Dict[str, str]:
+    """
+    Returns the application version.
+    """
+    with open("VERSION") as f:
+        ver = f.read().strip()
+    return {"version": ver}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

@@ -5,16 +5,17 @@
     {
       "id": "continue-implementation",
       "title": "Continue implementation and resolve known failures",
-      "status": "in_progress",
+      "status": "done",
       "acceptance": [
         "Run checks, fix failures, and implement the next planned feature"
       ],
       "implementation": [
-        "backend/main.py: added /health endpoint"
+        "backend/main.py: added /health and /version endpoints"
       ],
       "tests": [
         "tests/test_health.py: added test_health",
-        "tests/test_backend.py: existing summarize tests"
+        "tests/test_backend.py: existing summarize tests",
+        "tests/test_version.py: added test_version"
       ]
     }
   ]
